@@ -1,0 +1,39 @@
+.cardSection {
+	width: 39rem;
+	display: flex;
+	margin: 1%;
+	box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+	border-radius: 4px;
+}
+
+.cardSection:nth-child(3) {
+	page-break-after: always;
+}
+
+.idBlock {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 51%;
+	justify-content: space-evenly;
+	padding: 2% 1%;
+	border-right: 1px solid #8080803b;
+	font-size: 13px;
+	min-height: 92px;
+}
+
+.contentBlock {
+	padding: 2% 1%;
+}
+
+.titleLabel {
+	font-size: 17px;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #8080803b;
+}
+
+.bodyLabel {
+	font-size: 13px;
+	padding: 2% 0%;
+	font-style: italic;
+}
